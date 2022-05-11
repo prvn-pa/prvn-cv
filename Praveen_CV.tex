@@ -1,0 +1,93 @@
+ % Run using lualatex
+\documentclass[12pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=1.4cm, right=1.4cm, bottom=1.4cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-darknight}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[circle]{cv/profile.png}
+\name{P. A.}{Praveen}
+\position{Post Doctoral Fellow}
+\address{Department of Physics, Indian Institute of Science Education and Research,\linebreak Tirupati - 517 507, India}
+
+\mobile{(+91) 96009-73793}
+\email{praveen@iisertirupati.ac.in}
+\homepage{www.prvn.info}
+% \github{prvnpa4}
+% \linkedin{posquit0}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{Prvnpa4}
+%\skype{live:prvnpa4}
+% \reddit{reddit-id}
+%\extrainfo{extra informations}
+\quote{\vspace*{-0.5cm} \textbf{Updated on} \today}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Praveen~~~|~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{cv/current.tex}
+\input{cv/education.tex}
+\input{cv/area.tex}
+%\input{cv/research.tex}
+%\newpage % Force a new page for looks
+\input{cv/skills.tex}
+\input{cv/publications.tex}
+\input{cv/supervision.tex}
+\input{cv/teaching.tex}
+\newpage
+\input{cv/honors.tex}
+%\input{cv/writing.tex}
+\input{cv/presentation.tex}
+\input{cv/extracurricular.tex}
+%\newpage % Force a new page for looks
+\input{cv/personal.tex}
+\input{cv/reference.tex}
+
+
+%-------------------------------------------------------------------------------
+\end{document}
