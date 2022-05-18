@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2022.1.13)  8 MAY 2022 20:44
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2022.1.13)  18 MAY 2022 21:39
  restricted system commands enabled.
 **Praveen_CV.tex
 (./Praveen_CV.tex
@@ -855,10 +855,9 @@ luaotfload | aux : font no 53 (nil) defines no feature for script latn
 luaotfload | aux : font no 58 (nil) defines no feature for script latn)
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 55.
-
-No file Praveen_CV.aux.
-
+ (./Praveen_CV.aux)
 \openout1 = Praveen_CV.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
@@ -879,7 +878,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 55.
 
 *geometry* driver: auto-detecting
@@ -1012,6 +1011,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
 LaTeX Info: Redefining \nameref on input line 55.
+ (./Praveen_CV.out) (./Praveen_CV.out)
 \@outlinefile=\write6
 
 \openout6 = Praveen_CV.out
@@ -1068,18 +1068,11 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 56.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sc' will be
 (Font)              scaled to size 8.0pt on input line 56.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 56.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 56.
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 56.
-
-[1
+ [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./cv/prof
-ile.png>]) (./cv/skills.tex
+ile.png>])
+(./cv/skills.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 21.
 
@@ -1098,11 +1091,7 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 24.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 43.
-
-[2]) (./cv/supervision.tex
+ [2]) (./cv/supervision.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 23.
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 23.
@@ -1128,11 +1117,7 @@ Overfull \hbox (42.67912pt too wide) in alignment at lines 16--55
 [] [] []
  []
 
-)
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 82.
-
-[3] (./cv/honors.tex
+) [3] (./cv/honors.tex
 Overfull \hbox (42.67912pt too wide) in alignment at lines 16--58
 [] [] []
  []
@@ -1140,11 +1125,7 @@ Overfull \hbox (42.67912pt too wide) in alignment at lines 16--58
 ) (./cv/presentation.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 7.69997pt on input line 33.
-) (./cv/extracurricular.tex
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 69.
-
-[4]) (./cv/personal.tex
+) (./cv/extracurricular.tex [4]) (./cv/personal.tex
 Overfull \hbox (69.20877pt too wide) in alignment at lines 10--31
 [] []
  []
@@ -1155,40 +1136,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--90
  []
 
 
-Package lastpage Warning: Rerun to get the references right on input line 93.
-
-
 AED: lastpage setting LastPage
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 93.
-
 [5] (./Praveen_CV.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Praveen_CV.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Praveen_CV.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Praveen_CV.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 32811 strings out of 478531
+ 32824 strings out of 478531
  125086,1373583 words of node,token memory allocated
  647 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 81 glue_spec,
  9 attribute_list, 3 write nodes
-   avail lists: 1:2,2:1354,3:418,4:340,5:1262,6:151,7:8242,8:16,9:1210,10:14,11:
+   avail lists: 1:1,2:1354,3:420,4:341,5:1264,6:152,7:8245,8:18,9:1209,10:14,11:
 720
- 51528 multiletter control sequences out of 65536+600000
- 121 fonts using 38083555 bytes
+ 51526 multiletter control sequences out of 65536+600000
+ 120 fonts using 37730031 bytes
  127i,12n,123p,528b,924s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm-math/latinmodern-ma
 th.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman8-reg
@@ -1199,10 +1162,10 @@ oto-Regular.ttf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/fontaw
 esome/FontAwesome.otf><./fonts/Roboto-Italic.ttf></usr/share/fonts/adobe-source-
 sans/SourceSansPro-Regular.otf><./fonts/Roboto-Bold.ttf><./fonts/Roboto-Thin.ttf
 >
-Output written on Praveen_CV.pdf (5 pages, 1132967 bytes).
+Output written on Praveen_CV.pdf (5 pages, 1132985 bytes).
 
-PDF statistics: 128 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+PDF statistics: 137 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  20 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
